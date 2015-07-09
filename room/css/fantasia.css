@@ -1,0 +1,336 @@
+body {
+  padding-top: 70px
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: auto;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+.modal {
+	
+
+}
+
+
+.dropdown-toggle{
+	margin-left:4px;
+ }
+footer {
+  margin: 50px 0;
+}
+
+@font-face {
+font-family: 'Robofan Free';
+font-style: normal;
+font-weight: normal;
+src: local('Robofan Free'), url('../fonts/Robofan Free.woff') format('woff');
+}
+
+
+/* chat */
+
+            .chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left:60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+
+/* THEME COLOURING - Change these values to your desired color theme
+* ==================================================================
+*/
+
+/* Top - bar color */
+
+.navbar-inverse {
+    background-color: #0A9352;
+    border-color: #FBEC00;
+}
+
+/* Top-bar text color */
+
+.navbar-nav > li > a {
+    color: #FBEC00 !important;
+}
+
+/* Chat bar color */
+.panel-heading
+{
+    background-color: #0A9352 !important;
+    border-color: #0A9352 !important;
+    color:#FFF;
+}
+
+/* Chat border color */
+.panel-primary {
+    border-color: #CCC;
+}
+
+/* Chat send button */
+.btn-warning
+{
+    background-color:#0A9352 !important;
+    border-color:#0A9352 !important;
+}
+/* scores */
+
+.gameHeading{
+text-align:center;
+color:#FFFFFF;
+}
+.Game{
+text-align:center;
+border-bottom:1px solid #0A9352;
+padding:10px;
+}
+.carousel-inner{
+border:1px solid #0A9352;
+}
+
+.team:before{
+	background:url(../img/ico_flags.png) no-repeat 0 0;
+	background-size:730px 15px;
+	width:22px;
+	height:15px;
+	position:absolute;
+	left:10px;
+	top:5px;
+	border:1px #ECECEC solid
+	
+}
+.team:last-child:before{
+	left:auto;
+	right:10px
+}
+.team-bra:before{
+	
+	background-position:0 0;
+
+	
+}
+
+.team-cro:before{
+	background-position:-23px 0
+}
+
+.team-mex:before{
+	background-position:-46px 0
+}
+
+.team-cam:before{
+	background-position:-69px 0
+}
+
+.team-spa:before{
+	background-position:-92px 0
+}
+
+.team-ned:before{
+	background-position:-115px 0
+}
+
+.team-chi:before{
+	background-position:-137px 0
+}
+
+.team-aus:before{
+	background-position:-161px 0
+}
+
+.team-col:before{
+	background-position:-183px 0
+}
+
+.team-gre:before{
+	background-position:-206px 0
+}
+
+.team-uru:before{
+	background-position:-229px 0
+}
+
+.team-cos:before{
+	background-position:-252px 0
+}
+
+.team-eng:before{
+	background-position:-274px 0
+}
+
+.team-ita:before{
+	background-position:-297px 0
+}
+
+.team-ivo:before{
+	background-position:-320px 0
+}
+
+.team-jpn:before{
+	background-position:-343px 0
+}
+
+.team-swi:before{
+	background-position:-365px 0;
+	border:none
+}
+
+.team-ecu:before{
+	background-position:-388px 0
+}
+
+.team-fra:before{
+	background-position:-411px 0
+}
+
+.team-hon:before{
+	background-position:-434px 0
+}
+
+.team-arg:before{
+	background-position:-457px 0
+}
+
+.team-bos:before{
+	background-position:-480px 0
+}
+
+.team-ger:before{
+	background-position:-502px 0
+}
+
+.team-por:before{
+	background-position:-525px 0
+}
+
+.team-ira:before{
+	background-position:-548px 0
+}
+
+.team-nig:before{
+	background-position:-571px 0
+}
+
+.team-gha:before{
+	background-position:-594px 0
+}
+
+.team-usa:before{
+	background-position:-616px 0
+}
+
+.team-bel:before{
+	background-position:-639px 0
+}
+
+.team-alg:before{
+	background-position:-662px 0
+}
+
+.team-rus:before{
+	background-position:-685px 0
+}
+
+.team-kor:before{
+	background-position:-708px 0
+}
+
+.poll{
+
+text-align:center;
+}
+.well{
+
+text-align:center;
+}
+
